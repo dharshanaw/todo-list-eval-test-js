@@ -20,8 +20,9 @@ Go to project directory evaluation_automation_test cd <git_Checkout_Directory>/t
 
 Initiate npm <project_home>$ npm i
 Run execute test suite using npm <project_home>$ npm test
+To generate HTML report <project_home>$ npm run test-html
 
 
 ### Evaluation of test results
 
-This test module is configured with the Maven Surefire plugin therefore you can find all the reports under <Build_Home>/target/surefire-reports/ directory.
+This test module is configured with the mocawesome therefore you can find all the reports under <project_home>/todo-list-eval-test-js/mochawesome-report
