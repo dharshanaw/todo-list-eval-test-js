@@ -4,7 +4,7 @@ Evaluation test suite
 
 ### System Requirements
 
-Internet Connectivity and ability to connect maven central repository to download dependencies
+Internet Connectivity and ability to connect npm central repository to download dependencies
 
 npm version 8.0.0 or higher
 
@@ -19,7 +19,9 @@ Clone the repository https://github.com/dharshanaw/todo-list-eval-test-js
 Go to project directory evaluation_automation_test cd <git_Checkout_Directory>/todo-list-eval-test-js
 
 Initiate npm <project_home>$ npm i
+
 Run execute test suite using npm <project_home>$ npm test
+
 To generate HTML report <project_home>$ npm run test-html
 
 
